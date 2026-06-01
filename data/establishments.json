@@ -29,4 +29,63 @@
     "lat": -34.6627,
     "lon": -58.3644
   }
+
+
+,
+  
+{ "id": "71", "nombre" : "CENTRO DE REHABILITACION CETIB SRL", "tipo": "DISCAPACIDAD", "direccion": "15 5125", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.76056700434084, "lon": -58.205296683124466}, 
+{ "id": "72", "nombre" : "EMECA S.A.", "tipo": "EMERGENCIA MÉDICA", "direccion": "150 756", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.753992804536196, "lon":  -58.21208887556397}, 
+{ "id": "73", "nombre" : "NUEVO SANATORIO BERAZATEGUI", "tipo": "ESTABLECIMIENTO", "direccion": "AV RIGOLLEAU  4121", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.765400092007, "lon":  -58.21631248001297}, 
+{ "id": "74", "nombre" : "INSTITUTO INTEGRAL DE DIAGNOSTICO", "tipo": "ESTABLECIMIENTO", "direccion": "14 2622", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.77404708683581, "lon": -58.233144343549704}, 
+{ "id": "75", "nombre" : "CLINICA PRIVADA DE PSIQUIATRIA Y PSICOLOGIA MEDICA SAN MARTIN", "tipo": "ESTABLECIMIENTO", "direccion": "Calle 11 4629", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.75966375888153, "lon": -58.21357663279888}, 
+{ "id": "76", "nombre" : "CENTRO DE DIALISIS", "tipo": "ESTABLECIMIENTO", "direccion": "138 E/ 10 Y 11 1030", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.76355777108287, "lon":  -58.2225505505425}, 
+{ "id": "77", "nombre" : "CENTRO ASISTENCIAL SU SALUD", "tipo": "ESTABLECIMIENTO", "direccion": "147 1347", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.76154544505556, "lon": -58.21119575462323}, 
+{ "id": "78", "nombre" : "POLICLINICA PRIVADA JULIA C DE TISCORNIA", "tipo": "ESTABLECIMIENTO", "direccion": "148 1531", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.762227326763586, "lon":  -58.20810907960667}, 
+{ "id": "79", "nombre" : "INSTITUTO DE OJOS SANTA LUCIA BERAZATEGUI", "tipo": "ESTABLECIMIENTO", "direccion": "141 1371", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.765112860341326, "lon": -58.217028067291956}, 
+{ "id": "80", "nombre" : "CLINICA PRIVADA DE PSIQUIATRIA Y PSICOLOGIA", "tipo": "ESTABLECIMIENTO", "direccion": "Calle 11 4629", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.759724269710794, "lon":  -58.21358435215324}, 
+{ "id": "177", "nombre" : "CENTRO DE ENFERMEDADES RENALES EZPELETA S.A.", "tipo": "ESTABLECIMIENTO", "direccion": "AVENIDA SAN MARTIN 5501", "localidad": "EZPELETA", "provincia": "BUENOS AIRES", "lat": -34.752962856406974, "lon":  -58.23186147453679}, 
+{ "id": "179", "nombre" : "CENTRO MEDICO SAN MARTIN", "tipo": "ESTABLECIMIENTO", "direccion": "SAN MARTIN 5537", "localidad": "EZPELETA", "provincia": "BUENOS AIRES", "lat": -34.753258386737144, "lon":  -58.23180063263573}, 
+{ "id": "540", "nombre" : "CENTRO DE ORTOPEDIA Y TRAUMATOLOGIA QUILMES S.A.", "tipo": "ESTABLECIMIENTO", "direccion": "GENERAL PAZ  631", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.720065612009606, "lon":  -58.25228256518873}, 
+{ "id": "541", "nombre" : "POLICLINICA PRIVADA CONSULTORIOS ODONTOLOGICOS ODUS", "tipo": "ESTABLECIMIENTO", "direccion": "LAVALLE  668", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.72309863691157, "lon": -58.256313620141036}, 
+{ "id": "542", "nombre" : "PRODIGAR SALUD", "tipo": "ESTABLECIMIENTO", "direccion": "PASO 137", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.71621716072567, "lon": -58.26339386448415}, 
+{ "id": "544", "nombre" : "SANATORIO MODELO DE QUILMES S.A.", "tipo": "ESTABLECIMIENTO", "direccion": "ANDRES BARNDA 282", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.71892717492389, "lon": -58.273677156749116}, 
+{ "id": "545", "nombre" : "REVIVIR ASOCIACION CIVIL - ASOCIACIÓN REVIVIR", "tipo": "ESTABLECIMIENTO", "direccion": "Pedro Elustondo 4357", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.76316048969447, "lon": -58.27459925176105}, 
+{ "id": "547", "nombre" : "CLINICA PRIVADA SANTA LUCIA", "tipo": "ESTABLECIMIENTO", "direccion": "BROWN 438", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.71889962652869, "lon": -58.25816972714008}, 
+{ "id": "551", "nombre" : "SANATORIO URQUIZA S.A. -TALECO S.A.", "tipo": "ESTABLECIMIENTO", "direccion": "URQUIZA 1537", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.731771904898, "lon": -58.269756289914596}, 
+{ "id": "556", "nombre" : "CLINICA BRANDSEN S.A", "tipo": "ESTABLECIMIENTO", "direccion": "BRANDSEN  128", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.72726984874968, "lon": -58.254455184486645}
+
+,
+
+{ "id": "10000", "nombre" : "BIANCHI", "tipo": "FARMACIA", "direccion": "Avenida 14 Presidente Juan Domingo Perón 4653", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.76255727078046, "lon": -58.21025283988214}, 
+{ "id": "10001", "nombre" : "PORTA EMILIO HUGO", "tipo": "FARMACIA", "direccion": "14 5208", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.75930261524658, "lon": -58.20513361745638}, 
+{ "id": "10002", "nombre" : "SELLA RAUL", "tipo": "FARMACIA", "direccion": "AVENIDA 14 3999", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.766184987764156, "lon": -58.217736319305445}, 
+{ "id": "10003", "nombre" : "LOZANO FERNANDO JOSE", "tipo": "FARMACIA", "direccion": "14 1940", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.77665775629121, "lon": -58.23787523721678}, 
+{ "id": "10004", "nombre" : "HAURESZ VICTOR JAVIER", "tipo": "FARMACIA", "direccion": "CALLE 7 2280", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.76893780857532, "lon": -58.24100737657278}, 
+{ "id": "10005", "nombre" : "CARAVAGGIO JUAN OSCAR", "tipo": "FARMACIA", "direccion": "CALLE 14 297", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.78514603028437, "lon": -58.253626175126364}, 
+{ "id": "10006", "nombre" : "RAJCZAKOWSKI MIGUEL ANDRES", "tipo": "FARMACIA", "direccion": "LAVALLE 2599", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.76758376125524, "lon": -58.23810216933193}, 
+{ "id": "10007", "nombre" : "MINNUCCI OSCAR", "tipo": "FARMACIA", "direccion": "CALLE 148 797", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.75565165173938, "lon": -58.214110909454725}, 
+{ "id": "10008", "nombre" : "FARMACIA DIVA SOCIEDAD EN COMANDITA SIMPLE", "tipo": "FARMACIA", "direccion": "CNO. GRAL. BELGRANO 2504", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.79292583657714, "lon": -58.23964738353303}, 
+{ "id": "10009", "nombre" : "KUCHARSKI", "tipo": "FARMACIA", "direccion": "CAMINO GRAL.BELGRANO 1455", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.7857296315935, "lon":  -58.25324988861931}, 
+{ "id": "10010", "nombre" : "AVENIDA", "tipo": "FARMACIA", "direccion": "AVENIDA 21 (NICOLAS VIDELA) 1461", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.785693924589054, "lon":  -58.23788625435732}, 
+{ "id": "10011", "nombre" : "BERAZATEGUI FARMACEUTICA S.C.S.", "tipo": "FARMACIA", "direccion": "148 1239", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.76013802072093, "lon": -58.21072052701747}, 
+{ "id": "10012", "nombre" : "GIGLIOTTI", "tipo": "FARMACIA", "direccion": "21 3153", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.777628292694686, "lon":  -58.22161786108475}, 
+{ "id": "10013", "nombre" : "COZZI", "tipo": "FARMACIA", "direccion": "AVDA. 14 RIGOLLEAU 1642", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.77861607685022, "lon": -58.24158101930478}, 
+{ "id": "10014", "nombre" : "BARBOZA GODOY", "tipo": "FARMACIA", "direccion": "23 1754", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.76575738662091, "lon": -58.192921884133675}, 
+{ "id": "10016", "nombre" : "PIACQUADIO MARIA ISABEL", "tipo": "FARMACIA", "direccion": "AV. MITRE  3045", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.77266493134806, "lon": -58.18916069071556}, 
+{ "id": "10017", "nombre" : "GOMEZ GABRIELA BELEN", "tipo": "FARMACIA", "direccion": "AVENIDA MITRE 960", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.75568672354422, "lon": -58.208944287725586}, 
+{ "id": "10018", "nombre" : "RIMOLI CECILIA GEORGINA", "tipo": "FARMACIA", "direccion": "AV. DARDO ROCHA 456", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.768675239170314, "lon":  -58.24586023820554}, 
+{ "id": "10019", "nombre" : "PINDUR", "tipo": "FARMACIA", "direccion": "24 4102", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.7754351433668, "lon":  -58.20894292603471}, 
+{ "id": "10020", "nombre" : "PIGLIAPOCO SANDRA VIVIANA", "tipo": "FARMACIA", "direccion": "132 1703", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.7735062364125, "lon": -58.223284562085716}, 
+{ "id": "10021", "nombre" : "ELIAS", "tipo": "FARMACIA", "direccion": "160 2437", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.76465468433997, "lon":  -58.1882886611958}, 
+{ "id": "10022", "nombre" : "FARMACIA ALBISTUR SOC. EN COM. SIMPLE", "tipo": "FARMACIA", "direccion": "14 3399", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.76942291677721, "lon": -58.223543279863364}, 
+{ "id": "10024", "nombre" : "DEL NORTE", "tipo": "FARMACIA", "direccion": "14 3064", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.77151895317427, "lon":  -58.22792544074027}, 
+{ "id": "10025", "nombre" : "LOPRESTI", "tipo": "FARMACIA", "direccion": "AV.VERGARA 607", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.76588686963006, "lon": -58.235003793344006}, 
+{ "id": "10026", "nombre" : "SEVILLA TITO RENE", "tipo": "FARMACIA", "direccion": "CAMINO GRAL BELGRANO  S/N", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.79486722374003, "lon":  -58.23620534386914}, 
+{ "id": "10027", "nombre" : "VILA", "tipo": "FARMACIA", "direccion": "Avenida 21 2918", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.77927287654648, "lon":  -58.22505703897068}, 
+{ "id": "10028", "nombre" : "URBAN", "tipo": "FARMACIA", "direccion": "21 3710", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.77424631846258, "lon":  -58.21569845506098}, 
+{ "id": "10029", "nombre" : "MARTINA", "tipo": "FARMACIA", "direccion": "LAVALLE ESQ 117", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.77199942996667, "lon":  -58.24601090743266}, 
+{ "id": "10030", "nombre" : "FARMACIA TAMBUSSI S.C.S", "tipo": "FARMACIA", "direccion": "AVENIDA 14   4653", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.76249897511013, "lon":  -58.21025709084959}, 
+{ "id": "10031", "nombre" : "MINOTTI (CAMBIO)", "tipo": "FARMACIA", "direccion": "CALLE 21 725", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.7900977258353, "lon":  -58.24466867718285}
+
+
 ]
