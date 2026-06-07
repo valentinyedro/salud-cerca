@@ -9,6 +9,7 @@ import {
 } from "@/lib/orientationRules";
 import { Header } from "@/components/ui/Header";
 import { MapClient } from "@/components/map/MapClient";
+import { FilterButton } from "@/components/filters/FilterButton";
 import { FilterPanel } from "@/components/filters/FilterPanel";
 import { EstablishmentDetail } from "@/components/establishments/EstablishmentDetail";
 import { OrientationButton } from "@/components/orientation/OrientationButton";
@@ -28,6 +29,7 @@ export function SaludCercaApp({ establishments }: SaludCercaAppProps) {
     useState<Establishment | null>(null);
 
   const [isOrientationOpen, setIsOrientationOpen] = useState(false);
+  const [isFiltersOpen, setIsFiltersOpen] = useState(true);
 
   const filteredEstablishments = useMemo(
     () => filterEstablishmentsByTypes(establishments, selectedTypes),
@@ -52,10 +54,19 @@ export function SaludCercaApp({ establishments }: SaludCercaAppProps) {
       <Header />
 
       <section className="space-y-4 p-4">
-        <FilterPanel
-          selectedTypes={selectedTypes}
-          onTypesChange={handleTypesChange}
-        />
+        <div className="space-y-2">
+          <FilterButton
+            isOpen={isFiltersOpen}
+            onClick={() => setIsFiltersOpen((current) => !current)}
+          />
+          
+          {isFiltersOpen && (
+            <FilterPanel
+              selectedTypes={selectedTypes}
+              onTypesChange={handleTypesChange}
+            />
+          )}
+        </div>
 
         <MapClient
           establishments={filteredEstablishments}

@@ -10,10 +10,11 @@ type TypeFilterProps = {
 const typeOptions: {
   label: string;
   value: EstablishmentType;
+  icon: string;
 }[] = [
-  { label: "Hospitales", value: "hospital" },
-  { label: "Centros de salud", value: "centro_salud" },
-  { label: "Farmacias", value: "farmacia" },
+  { label: "Hospitales", value: "hospital", icon: "fa fa-heartbeat text-red-600" },
+  { label: "Centros de salud", value: "centro_salud", icon: "fa fa-user-md text-blue-600" },
+  { label: "Farmacias", value: "farmacia", icon: "fa fa-ambulance text-emerald-600" },
 ];
 
 export function TypeFilter({ selectedTypes, onChange }: TypeFilterProps) {
@@ -48,12 +49,13 @@ export function TypeFilter({ selectedTypes, onChange }: TypeFilterProps) {
         type="button"
         onClick={handleSelectAll}
         className={[
-          "rounded-full border px-3 py-2 text-sm transition",
+          "rounded-full border px-3 py-2 text-sm transition inline-flex items-center gap-2",
           selectedTypes === "all"
             ? "border-slate-900 bg-slate-900 text-white"
-            : "border-slate-300 bg-white text-slate-700",
+            : "border-slate-300 bg-white text-slate-700 hover:bg-slate-50",
         ].join(" ")}
       >
+        <i className="fa fa-map text-slate-500" aria-hidden="true"></i>
         Todos
       </button>
 
@@ -67,12 +69,13 @@ export function TypeFilter({ selectedTypes, onChange }: TypeFilterProps) {
               type="button"
               onClick={() => handleToggle(option.value)}
               className={[
-                "rounded-full border px-3 py-2 text-sm transition",
+                "rounded-full border px-3 py-2 text-sm transition inline-flex items-center gap-2",
                 isActive
                   ? "border-slate-900 bg-slate-900 text-white"
-                  : "border-slate-300 bg-white text-slate-700",
+                  : "border-slate-300 bg-white text-slate-700 opacity-60",
               ].join(" ")}
             >
+              <i className={option.icon} aria-hidden="true"></i>
               {option.label}
             </button>
           );
