@@ -14,7 +14,13 @@ export function filterEstablishmentsByTypes(
     return [];
   }
 
-  return establishments.filter((establishment) =>
-    selectedTypes.includes(establishment.tipo)
-  );
+  const selectedTypesLower = selectedTypes.map((type) => type.toLowerCase());
+
+  return establishments.filter((establishment) =>{
+    if (!establishment.tipo) return false;
+
+    const tipoNormalizado = establishment.tipo.toLowerCase();
+
+    return selectedTypesLower.includes(tipoNormalizado);
+  });
 }
