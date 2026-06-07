@@ -13,9 +13,16 @@ export function OrientationButton({
     <button
       type="button"
       onClick={onClick}
-      className="w-full rounded-lg bg-slate-900 px-4 py-3 text-sm font-medium text-white transition hover:bg-slate-800"
+      className="w-full inline-flex items-center justify-center gap-2 rounded bg-[#0072b8] px-4 py-3 text-sm font-medium text-white transition hover:bg-[#005a91] cursor-pointer shadow-sm"
     >
-      {isOpen ? "Ocultar orientación" : "Orientación automática"}
+      {isOpen ? (
+        <i className="fa fa-eye-slash" aria-hidden="true"></i>
+      ) : (
+        <i className="fa fa-compass animate-pulse text-base" aria-hidden="true"></i>
+      )}
+      <span>      
+        {isOpen ? "Ocultar orientación" : "Orientación automática"}
+      </span>
     </button>
   );
 }
