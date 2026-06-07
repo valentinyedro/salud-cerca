@@ -14,7 +14,10 @@ export function FilterPanel({
 }: FilterPanelProps) {
   return (
     <section className="rounded-lg border bg-white p-4">
-      <h2 className="mb-3 text-base font-semibold">Filtros</h2>
+      <h2 className="mb-3 text-base font-semibold flex items-center gap-2 text-slate-800">
+        <i className="fa fa-sliders text-slate-500" aria-hidden="true"></i>
+        Filtros de búsqueda
+      </h2>
 
       <TypeFilter selectedTypes={selectedTypes} onChange={onTypesChange} />
     </section>
