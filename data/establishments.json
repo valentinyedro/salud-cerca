@@ -33,27 +33,7 @@
 
 ,
   
-{ "id": "71", "nombre" : "CENTRO DE REHABILITACION CETIB SRL", "tipo": "centro_salud", "direccion": "15 5125", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.76056700434084, "lon": -58.205296683124466}, 
-{ "id": "72", "nombre" : "EMECA S.A.", "tipo": "hospital", "direccion": "150 756", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.753992804536196, "lon":  -58.21208887556397}, 
-{ "id": "73", "nombre" : "NUEVO SANATORIO BERAZATEGUI", "tipo": "hospital", "direccion": "AV RIGOLLEAU  4121", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.765400092007, "lon":  -58.21631248001297}, 
-{ "id": "74", "nombre" : "INSTITUTO INTEGRAL DE DIAGNOSTICO", "tipo": "centro_salud", "direccion": "14 2622", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.77404708683581, "lon": -58.233144343549704}, 
-{ "id": "75", "nombre" : "CLINICA PRIVADA DE PSIQUIATRIA Y PSICOLOGIA MEDICA SAN MARTIN", "tipo": "centro_salud", "direccion": "Calle 11 4629", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.75966375888153, "lon": -58.21357663279888}, 
-{ "id": "76", "nombre" : "CENTRO DE DIALISIS", "tipo": "centro_salud", "direccion": "138 E/ 10 Y 11 1030", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.76355777108287, "lon":  -58.2225505505425}, 
-{ "id": "77", "nombre" : "CENTRO ASISTENCIAL SU SALUD", "tipo": "centro_salud", "direccion": "147 1347", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.76154544505556, "lon": -58.21119575462323}, 
-{ "id": "78", "nombre" : "POLICLINICA PRIVADA JULIA C DE TISCORNIA", "tipo": "centro_salud", "direccion": "148 1531", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.762227326763586, "lon":  -58.20810907960667}, 
-{ "id": "79", "nombre" : "INSTITUTO DE OJOS SANTA LUCIA BERAZATEGUI", "tipo": "centro_salud", "direccion": "141 1371", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.765112860341326, "lon": -58.217028067291956}, 
-{ "id": "80", "nombre" : "CLINICA PRIVADA DE PSIQUIATRIA Y PSICOLOGIA", "tipo": "centro_salud", "direccion": "Calle 11 4629", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.759724269710794, "lon":  -58.21358435215324}, 
-{ "id": "177", "nombre" : "CENTRO DE ENFERMEDADES RENALES EZPELETA S.A.", "tipo": "centro_salud", "direccion": "AVENIDA SAN MARTIN 5501", "localidad": "EZPELETA", "provincia": "BUENOS AIRES", "lat": -34.752962856406974, "lon":  -58.23186147453679}, 
-{ "id": "179", "nombre" : "CENTRO MEDICO SAN MARTIN", "tipo": "centro_salud", "direccion": "SAN MARTIN 5537", "localidad": "EZPELETA", "provincia": "BUENOS AIRES", "lat": -34.753258386737144, "lon":  -58.23180063263573}, 
-{ "id": "540", "nombre" : "CENTRO DE ORTOPEDIA Y TRAUMATOLOGIA QUILMES S.A.", "tipo": "centro_salud", "direccion": "GENERAL PAZ  631", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.720065612009606, "lon":  -58.25228256518873}, 
-{ "id": "541", "nombre" : "POLICLINICA PRIVADA CONSULTORIOS ODONTOLOGICOS ODUS", "tipo": "centro_salud", "direccion": "LAVALLE  668", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.72309863691157, "lon": -58.256313620141036}, 
-{ "id": "542", "nombre" : "PRODIGAR SALUD", "tipo": "centro_salud", "direccion": "PASO 137", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.71621716072567, "lon": -58.26339386448415}, 
-{ "id": "544", "nombre" : "SANATORIO MODELO DE QUILMES S.A.", "tipo": "hospital", "direccion": "ANDRES BARNDA 282", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.71892717492389, "lon": -58.273677156749116}, 
-{ "id": "545", "nombre" : "REVIVIR ASOCIACION CIVIL - ASOCIACIÓN REVIVIR", "tipo": "centro_salud", "direccion": "Pedro Elustondo 4357", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.76316048969447, "lon": -58.27459925176105}, 
-{ "id": "547", "nombre" : "CLINICA PRIVADA SANTA LUCIA", "tipo": "hospital", "direccion": "BROWN 438", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.71889962652869, "lon": -58.25816972714008}, 
-{ "id": "551", "Sanatorio Urquiza": "SANATORIO URQUIZA S.A. -TALECO S.A.", "tipo": "hospital", "direccion": "URQUIZA 1537", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.731771904898, "lon": -58.269756289914596}, 
-{ "id": "556", "nombre" : "CLINICA BRANDSEN S.A", "tipo": "hospital", "direccion": "BRANDSEN  128", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.72726984874968, "lon": -58.254455184486645}
-,
+
 
 { "id": "10000", "nombre" : "BIANCHI", "tipo": "FARMACIA", "direccion": "Avenida 14 Presidente Juan Domingo Perón 4653", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.76255727078046, "lon": -58.21025283988214}, 
 { "id": "10001", "nombre" : "PORTA EMILIO HUGO", "tipo": "FARMACIA", "direccion": "14 5208", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.75930261524658, "lon": -58.20513361745638}, 
@@ -85,6 +65,50 @@
 { "id": "10029", "nombre" : "MARTINA", "tipo": "FARMACIA", "direccion": "LAVALLE ESQ 117", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.77199942996667, "lon":  -58.24601090743266}, 
 { "id": "10030", "nombre" : "FARMACIA TAMBUSSI S.C.S", "tipo": "FARMACIA", "direccion": "AVENIDA 14   4653", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.76249897511013, "lon":  -58.21025709084959}, 
 { "id": "10031", "nombre" : "MINOTTI (CAMBIO)", "tipo": "FARMACIA", "direccion": "CALLE 21 725", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.7900977258353, "lon":  -58.24466867718285}
+
+,
+
+{ "id": "15", "nombre" : "ASOCIACION DE CLINICAS Y SANATORIOS PRIVADOS DE LA PCIA.DE BS.AS. ZONA II", "tipo": "ASOCIACIÓN", "direccion": "LAVALLE   51", "localidad": "AVELLANEDA", "provincia": "BUENOS AIRES", "lat": -34.66248220114159, "lon":  -58.366330310969815}, 
+{ "id": "18", "nombre" : "SANATORIO PROFESOR ITOIZ", "tipo": "hospital", "direccion": "ALSINA 174", "localidad": "AVELLANEDA", "provincia": "BUENOS AIRES", "lat": -34.663889558458486, "lon":  -58.36596894737646}, 
+{ "id": "24", "nombre" : "CORDOBA, MARIA MERCEDES", "tipo": "hospital", "direccion": "Alsina 222", "localidad": "AVELLANEDA", "provincia": "BUENOS AIRES", "lat": -34.66471260236045, "lon":  -58.36685974856024}, 
+{ "id": "29", "nombre" : "ASOCIAICION MUTUAL DE LOS TRABAJADORES DEL CUERO Y AFINES", "tipo": "RED", "direccion": "Giribone 789", "localidad": "AVELLANEDA", "provincia": "BUENOS AIRES", "lat": -34.66403294685232, "lon":  -58.38079407411788}, 
+{ "id": "71", "nombre" : "CENTRO DE REHABILITACION CETIB SRL", "tipo": "DISCAPACIDAD", "direccion": "15 5125", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.76056700434084, "lon":  -58.205296683124466}, 
+{ "id": "72", "nombre" : "EMECA S.A.", "tipo": "EMERGENCIA MÉDICA", "direccion": "150 756", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.753992804536196, "lon":  -58.21208887556397}, 
+{ "id": "73", "nombre" : "NUEVO SANATORIO BERAZATEGUI", "tipo": "hospital", "direccion": "AV RIGOLLEAU  4121", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.765400092007, "lon":  -58.21631248001297}, 
+{ "id": "74", "nombre" : "INSTITUTO INTEGRAL DE DIAGNOSTICO", "tipo": "hospital", "direccion": "14 2622", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.77404708683581, "lon":  -58.233144343549704}, 
+{ "id": "75", "nombre" : "CLINICA PRIVADA DE PSIQUIATRIA Y PSICOLOGIA MEDICA SAN MARTIN", "tipo": "hospital", "direccion": "Calle 11 4629", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.75966375888153, "lon":  -58.21357663279888}, 
+{ "id": "76", "nombre" : "CENTRO DE DIALISIS", "tipo": "hospital", "direccion": "138 E/ 10 Y 11 1030", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.76355777108287, "lon":  -58.2225505505425}, 
+{ "id": "77", "nombre" : "CENTRO ASISTENCIAL SU SALUD", "tipo": "hospital", "direccion": "147 1347", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.76154544505556, "lon":  -58.21119575462323}, 
+{ "id": "78", "nombre" : "POLICLINICA PRIVADA JULIA C DE TISCORNIA", "tipo": "hospital", "direccion": "148 1531", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.762227326763586, "lon":  -58.20810907960667}, 
+{ "id": "79", "nombre" : "INSTITUTO DE OJOS SANTA LUCIA BERAZATEGUI", "tipo": "hospital", "direccion": "141 1371", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.765112860341326, "lon":  -58.217028067291956}, 
+{ "id": "80", "nombre" : "CLINICA PRIVADA DE PSIQUIATRIA Y PSICOLOGIA", "tipo": "hospital", "direccion": "Calle 11 4629", "localidad": "BERAZATEGUI", "provincia": "BUENOS AIRES", "lat": -34.759724269710794, "lon":  -58.21358435215324}, 
+{ "id": "84", "nombre" : "C.P.I. CENTRO PSICOTERAPEUTICO INTEGRAL S.R.L.", "tipo": "DISCAPACIDAD", "direccion": "Chacabuco 675", "localidad": "BERNAL", "provincia": "BUENOS AIRES", "lat": -34.7120512160198, "lon":  -58.29227144694846}, 
+{ "id": "85", "nombre" : "SANATORIO BERNAL S.R.L.", "tipo": "hospital", "direccion": "AV. SAN MARTIN 572", "localidad": "BERNAL", "provincia": "BUENOS AIRES", "lat": -34.70848271808703, "lon":  -58.28315211367898}, 
+{ "id": "86", "nombre" : "CONSULTORIOS PSIQUIATRICOS PSICOLOGICOS QUILMES S.A.", "tipo": "hospital", "direccion": "9 DE JULIO  146", "localidad": "BERNAL", "provincia": "BUENOS AIRES", "lat": -34.71146024777397, "lon":  -58.28359079910647}, 
+{ "id": "177", "nombre" : "CENTRO DE ENFERMEDADES RENALES EZPELETA S.A.", "tipo": "hospital", "direccion": "AVENIDA SAN MARTIN 5501", "localidad": "EZPELETA", "provincia": "BUENOS AIRES", "lat": -34.752962856406974, "lon":  -58.23186147453679}, 
+{ "id": "179", "nombre" : "CENTRO MEDICO SAN MARTIN", "tipo": "hospital", "direccion": "SAN MARTIN 5537", "localidad": "EZPELETA", "provincia": "BUENOS AIRES", "lat": -34.753258386737144, "lon":  -58.23180063263573}, 
+{ "id": "539", "nombre" : "CLINICA PRIVADA NEUROPSIQUIATRICA PUNTA ALTA - PROP. DE CLINICA PUNTA ALTA S.R.L.", "tipo": "hospital", "direccion": "MURATURE 655", "localidad": "PUNTA ALTA", "provincia": "BUENOS AIRES", "lat": -38.87755816544787, "lon":  -62.07456753483583}, 
+{ "id": "540", "nombre" : "CENTRO DE ORTOPEDIA Y TRAUMATOLOGIA QUILMES S.A.", "tipo": "hospital", "direccion": "GENERAL PAZ  631", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.720065612009606, "lon":  -58.25228256518873}, 
+{ "id": "541", "nombre" : "POLICLINICA PRIVADA CONSULTORIOS ODONTOLOGICOS ODUS", "tipo": "hospital", "direccion": "LAVALLE  668", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.72309863691157, "lon": -58.256313620141036}, 
+{ "id": "542", "nombre" : "PRODIGAR SALUD", "tipo": "hospital", "direccion": "PASO 137", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.71621716072567, "lon": -58.26339386448415}, 
+{ "id": "544", "nombre" : "SANATORIO MODELO DE QUILMES S.A.", "tipo": "hospital", "direccion": "ANDRES BARNDA 282", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.71892717492389, "lon": -58.273677156749116}, 
+{ "id": "545", "nombre" : "REVIVIR ASOCIACION CIVIL - ASOCIACIÓN REVIVIR", "tipo": "hospital", "direccion": "Pedro Elustondo 4357", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.76316048969447, "lon": -58.27459925176105}, 
+{ "id": "547", "nombre" : "CLINICA PRIVADA SANTA LUCIA", "tipo": "hospital", "direccion": "BROWN 438", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.71889962652869, "lon": -58.25816972714008}, 
+{ "id": "548", "nombre" : "TAMAYO S.R.L. - INSTITUTO CAREN", "tipo": "hospital", "direccion": "H. YRIGOYEN  737", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.72470317003309, "lon": -58.25881629883867}, 
+{ "id": "549", "nombre" : "CENTRO DE REHABILITACION Y ESTIMULACION TEMPRANA TIEMPO FELIZ", "tipo": "hospital", "direccion": "GARIBALDI 21", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.72518485237305, "lon":  -62.07456753483583}, 
+{ "id": "550", "nombre" : "PRODIGAR SALUD", "tipo": "hospital", "direccion": "PASO 137", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.716058375450494, "lon":  -58.25228256518873}, 
+{ "id": "551", "nombre" : "SANATORIO URQUIZA S.A. -TALECO S.A.", "tipo": "hospital", "direccion": "URQUIZA 1537", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.731771904898, "lon":  -58.269756289914596}, 
+{ "id": "552", "nombre" : "CENTRO DE OJOS QUILMES SA", "tipo": "hospital", "direccion": "Alvear 764", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.72345506453245, "lon":  -58.25340516270159}, 
+{ "id": "554", "nombre" : "LABORATORIO DE ANALISIS CLINICOS", "tipo": "hospital", "direccion": "GENERAL PAZ 767", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.72207340719552, "lon":  -58.25097212037357}, 
+{ "id": "555", "nombre" : "INSTITUTO DE DIAGNOSTICO 12 DE OCTUBRE", "tipo": "hospital", "direccion": "12 DE OCTUBRE 926", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.729760268242686, "lon":  -58.267593532161456}, 
+{ "id": "556", "nombre" : "CLINICA BRANDSEN S.A", "tipo": "hospital", "direccion": "BRANDSEN  128", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.72726984874968, "lon": -58.254455184486645}, 
+{ "id": "557", "nombre" : "DOMUN SANITAS SA", "tipo": "hospital", "direccion": "LAVALLE  678", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.723048381970436, "lon":  -58.25228256518873}, 
+{ "id": "558", "nombre" : "CENTRO DE REHABILITACION INTEGRAL LAVALLE", "tipo": "hospital", "direccion": "LAVALLE 1203", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.73181541073977, "lon":  -58.256313620141036}, 
+{ "id": "559", "nombre" : "OL SERVICIOS SALUD SRL", "tipo": "hospital", "direccion": "ENTRE RIOS 1088", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.72956465813022, "lon":  -58.26339386448415}, 
+{ "id": "565", "nombre" : "MEDICINA AMBULATORIA Y DIAGNOSTICO SUR GBA SRL", "tipo": "NO IDENTIFICADA", "direccion": "Alem 279", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.722029315709825, "lon": -58.25881629883867}
+,
+
+{ "id": "10059", "nombre" : "FARMACIA MOSCONI II SCS", "tipo": "FARMACIA", "direccion": "Av. Mosconi 1001", "localidad": "QUILMES", "provincia": "BUENOS AIRES", "lat": -34.739366094796665, "lon":  -58.2977871896852}
 
 
 ]

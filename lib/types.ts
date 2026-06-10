@@ -1,4 +1,5 @@
-export type EstablishmentType = "hospital" | "centro_salud" | "farmacia";
+export type EstablishmentType = "hospital" | "centro_salud" | "farmacia"
+;
 
 export type Establishment = {
   id: string;
