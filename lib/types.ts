@@ -11,3 +11,16 @@ export type Establishment = {
   lat: number;
   lon: number;
 };
+
+export type ViewType = "mapa" | "medicamentos";
+
+export type Medication = {
+  code: number;
+  activeIngredient: string;
+  brand: string;
+  presentation: string;
+  laboratory: string;
+  price: string;
+  coverage: string;
+  copay: string;
+};
