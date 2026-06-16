@@ -1,6 +1,13 @@
 "use client";
 
-export function Header() {
+import type { ViewType } from "@/lib/types";
+
+type HeaderProps = {
+  activeView: ViewType;
+  onViewChange: (v: ViewType) => void;
+};
+
+export function Header({ activeView, onViewChange }: HeaderProps) {
   return (
     <header className="w-full bg-white border-b-4 border-[#0072b8] shadow-sm font-sans">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-8 py-5">
@@ -21,11 +28,37 @@ export function Header() {
         <nav className="flex items-center gap-8">
           <button
             type="button"
-            className="text-sm font-bold text-[#0072b8] uppercase tracking-wider border-b-2 border-[#0072b8] pb-1 cursor-pointer"
+            id="mapa"
+            title="Mapa"
+            aria-pressed={activeView === "mapa"}
+            onClick={() => onViewChange("mapa")}
+            className={
+              "text-sm font-bold uppercase tracking-wider pb-1 cursor-pointer " +
+              (activeView === "mapa"
+                ? "text-[#0072b8] border-b-2 border-[#0072b8]"
+                : "text-slate-400 hover:text-[#0072b8] hover:border-b-2 transition-colors")
+            }
           >
             Mapa Interactivo
           </button>
-          
+
+          <button
+            type="button"
+            id="medicamentos"
+            title="Medicamentos"
+            aria-pressed={activeView === "medicamentos"}
+            onClick={() => onViewChange("medicamentos")}
+            className={
+              "text-sm font-bold uppercase tracking-wider pb-1 cursor-pointer " +
+              (activeView === "medicamentos"
+                ? "text-[#0072b8] border-b-2 border-[#0072b8]"
+                : "text-slate-400 hover:text-[#0072b8] hover:border-b-2 transition-colors")
+            }
+          >
+            Medicamentos
+          </button>
+
+
           <button
             type="button"
             disabled

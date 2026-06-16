@@ -9,6 +9,7 @@ const typeLabels: Record<Establishment["tipo"], string> = {
   hospital: "Hospital",
   centro_salud: "Centro de salud",
   farmacia: "Farmacia",
+
 };
 
 export function EstablishmentDetail({

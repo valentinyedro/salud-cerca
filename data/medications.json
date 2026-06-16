@@ -1,0 +1,41 @@
+[
+  {
+    "Alfabeta": 43205,
+    "Principio activo": "accesorio",
+    "Marca Comercial": "LANCETAS BD ULTRAFINE 30G",
+    "Presentacion": "env.x 100",
+    "Laboratorio": "BD",
+    "PVP PAMI": "$ 1192.68",
+    "Cobertura": "100%",
+    "Importe afiliado": "$ 0"
+  },
+  {"Alfabeta": 43206,
+    "Principio activo": "accesorio",
+    "Marca Comercial": "LANCETAS BD ULTRAFINE 30G",
+    "Presentacion": "env.x 100",
+    "Laboratorio": "BD",
+    "PVP PAMI": "$ 1190.68",
+    "Cobertura": "90%",
+    "Importe afiliado": "$ 100"
+},
+  {"Alfabeta": 43207,
+    "Principio activo": "paracetamol",
+    "Marca Comercial": "LANCETAS BD ULTRAFINE 30G",
+    "Presentacion": "env.x 100",
+    "Laboratorio": "BD",
+    "PVP PAMI": "$ 1592.68",
+    "Cobertura": "100%",
+    "Importe afiliado": "$ 0"
+},
+
+  {"Alfabeta": 43208,
+    "Principio activo": "paracetamol-compuesto",
+    "Marca Comercial": "LANCETAS BD ULTRAFINE 30G",
+    "Presentacion": "env.x 100",
+    "Laboratorio": "BD",
+    "PVP PAMI": "$ 1592.68",
+    "Cobertura": "100%",
+    "Importe afiliado": "$ 0"
+}
+
+]

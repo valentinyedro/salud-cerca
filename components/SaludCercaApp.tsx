@@ -15,6 +15,10 @@ import { EstablishmentDetail } from "@/components/establishments/EstablishmentDe
 import { OrientationButton } from "@/components/orientation/OrientationButton";
 import { OrientationPanel } from "@/components/orientation/OrientationPanel";
 
+import { MapSection } from "@/components/map/MapSection";
+import { MedicationSection } from "@/components/medication/MedicationSection";
+import type { ViewType } from "@/lib/types";
+
 export type SelectedEstablishmentTypes = EstablishmentType[] | "all";
 
 type SaludCercaAppProps = {
@@ -31,6 +35,8 @@ export function SaludCercaApp({ establishments }: SaludCercaAppProps) {
   const [isOrientationOpen, setIsOrientationOpen] = useState(false);
   const [isFiltersOpen, setIsFiltersOpen] = useState(true);
 
+  const [activeView, setActiveView] = useState<ViewType>("mapa");
+
   const filteredEstablishments = useMemo(
     () => filterEstablishmentsByTypes(establishments, selectedTypes),
     [establishments, selectedTypes]
@@ -41,19 +47,22 @@ export function SaludCercaApp({ establishments }: SaludCercaAppProps) {
     setSelectedEstablishment(null);
   }
 
-  function handleOrientationSelect(need: OrientationNeed) {
+/*   function handleOrientationSelect(need: OrientationNeed) {
     const rule = orientationRules[need];
 
     setSelectedTypes(rule.establishmentTypes);
     setSelectedEstablishment(null);
     setIsOrientationOpen(false);
   }
+ */
 
   return (
     <main className="min-h-screen bg-white text-slate-950">
-      <Header />
+      <Header activeView={activeView} onViewChange={setActiveView} />
 
-      <section className="space-y-4 p-4">
+  {
+/*       <section className="space-y-4 p-4">
+
         <div className="space-y-2">
           <FilterButton
             isOpen={isFiltersOpen}
@@ -97,6 +106,13 @@ export function SaludCercaApp({ establishments }: SaludCercaAppProps) {
           </p>
         </div>
       </section>
+ */
+  }
+  
+      {activeView === "mapa" && <MapSection establishments={establishments} />}
+
+      {activeView === "medicamentos" && <MedicationSection />}
+
     </main>
   );
 }

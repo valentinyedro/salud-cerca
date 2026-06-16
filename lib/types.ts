@@ -1,4 +1,5 @@
-export type EstablishmentType = "hospital" | "centro_salud" | "farmacia";
+export type EstablishmentType = "hospital" | "centro_salud" | "farmacia"
+;
 
 export type Establishment = {
   id: string;
@@ -9,4 +10,17 @@ export type Establishment = {
   provincia: string;
   lat: number;
   lon: number;
+};
+
+export type ViewType = "mapa" | "medicamentos";
+
+export type Medication = {
+  code: number;
+  activeIngredient: string;
+  brand: string;
+  presentation: string;
+  laboratory: string;
+  price: string;
+  coverage: string;
+  copay: string;
 };

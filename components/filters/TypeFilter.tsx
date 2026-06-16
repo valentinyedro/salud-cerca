@@ -15,6 +15,7 @@ const typeOptions: {
   { label: "Hospitales", value: "hospital", icon: "fa fa-heartbeat text-red-600" },
   { label: "Centros de salud", value: "centro_salud", icon: "fa fa-user-md text-blue-600" },
   { label: "Farmacias", value: "farmacia", icon: "fa fa-ambulance text-emerald-600" },
+  
 ];
 
 export function TypeFilter({ selectedTypes, onChange }: TypeFilterProps) {
