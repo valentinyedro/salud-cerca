@@ -45,7 +45,7 @@ export function TypeFilter({ selectedTypes, onChange }: TypeFilterProps) {
   }
 
   return (
-    <div className="space-y-3">
+    <div className="flex flex-wrap gap-2">
       <button
         type="button"
         onClick={handleSelectAll}
@@ -60,28 +60,26 @@ export function TypeFilter({ selectedTypes, onChange }: TypeFilterProps) {
         Todos
       </button>
 
-      <div className="flex flex-wrap gap-2">
-        {typeOptions.map((option) => {
-          const isActive = activeTypes.includes(option.value);
+      {typeOptions.map((option) => {
+        const isActive = activeTypes.includes(option.value);
 
-          return (
-            <button
-              key={option.value}
-              type="button"
-              onClick={() => handleToggle(option.value)}
-              className={[
-                "rounded-full border px-3 py-2 text-sm transition inline-flex items-center gap-2",
-                isActive
-                  ? "border-slate-900 bg-slate-900 text-white"
-                  : "border-slate-300 bg-white text-slate-700 opacity-60",
-              ].join(" ")}
-            >
-              <i className={option.icon} aria-hidden="true"></i>
-              {option.label}
-            </button>
-          );
-        })}
-      </div>
+        return (
+          <button
+            key={option.value}
+            type="button"
+            onClick={() => handleToggle(option.value)}
+            className={[
+              "rounded-full border px-3 py-2 text-sm transition inline-flex items-center gap-2",
+              isActive
+                ? "border-slate-900 bg-slate-900 text-white"
+                : "border-slate-300 bg-white text-slate-700 opacity-60",
+            ].join(" ")}
+          >
+            <i className={option.icon} aria-hidden="true"></i>
+            {option.label}
+          </button>
+        );
+      })}
     </div>
   );
 }
