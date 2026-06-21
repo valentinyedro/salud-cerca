@@ -13,7 +13,7 @@ export type Establishment = {
   lon: number;
 };
 
-export type ViewType = "mapa" | "medicamentos";
+export type ViewType = "mapa" | "medicamentos" | "estadisticas";
 
 export type Medication = {
   code: number;
