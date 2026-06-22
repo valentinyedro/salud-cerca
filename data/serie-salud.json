@@ -1,0 +1,55 @@
+{
+  "status": 200,
+  "fuente": "Ministerio de Salud de la Nación - Registro Federal (REFES) - Región Sanitaria VI",
+  "time_series": [
+    {"anio": "2018", "hospitales": 1410, "salitas": 3120},
+    {"anio": "2019", "hospitales": 1435, "salitas": 3280},
+    {"anio": "2020", "hospitales": 1495, "salitas": 3540},
+    {"anio": "2021", "hospitales": 1515, "salitas": 3690},
+    {"anio": "2022", "hospitales": 1540, "salitas": 3820},
+    {"anio": "2023", "hospitales": 1565, "salitas": 4010},
+    {"anio": "2024", "hospitales": 1590, "salitas": 4180},
+    {"anio": "2025", "hospitales": 1615, "salitas": 4350},
+    {"anio": "2026", "hospitales": 1642, "salitas": 4512}
+  ],
+  "top_ciudades": [
+    {"ciudad": "Quilmes", "cantidad": 64, "color": "#0072b8"},
+    {"ciudad": "Lomas de Zamora", "cantidad": 58, "color": "#1f91d6"},
+    {"ciudad": "Berazategui", "cantidad": 49, "color": "#4fb3f0"},
+    {"ciudad": "Lanús", "cantidad": 41, "color": "#2e7d32"},
+    {"ciudad": "Florencio Varela", "cantidad": 46, "color": "#66bb6a"},
+    {"ciudad": "Avellaneda", "cantidad": 38, "color": "#ffa726"}
+  ],
+  "detalles_ciudades": {
+    "Quilmes": {
+      "hospital_destacado": "Hospital Zonal General de Agudos 'Dr. Isidoro Iriarte'",
+      "salita_principal": "CIC La Matera (Quilmes Oeste)",
+      "zona_sanitaria": "Región Sanitaria VI"
+    },
+    "Lomas de Zamora": {
+      "hospital_destacado": "Hospital Interzonal General de Agudos 'Dr. Luisa C. de Gandulfo'",
+      "salita_principal": "CAPS San Martín",
+      "zona_sanitaria": "Región Sanitaria VI"
+    },
+    "Berazategui": {
+      "hospital_destacado": "Hospital General de Agudos 'Dr. Alieto Guadagni' / 'Evita Pueblo'",
+      "salita_principal": "CAPS N° 1 'Dr. Javier Sábatto'",
+      "zona_sanitaria": "Región Sanitaria VI"
+    },
+    "Lanús": {
+      "hospital_destacado": "Hospital Interzonal General de Agudos 'Evita' de Lanús",
+      "salita_principal": "CAPS 'Dr. Arturo Illia'",
+      "zona_sanitaria": "Región Sanitaria VI"
+    },
+    "Florencio Varela": {
+      "hospital_destacado": "Hospital de Alta Complejidad en Red 'El Cruce - Néstor Kirchner'",
+      "salita_principal": "CAPS Villa Hudson",
+      "zona_sanitaria": "Región Sanitaria VI"
+    },
+    "Avellaneda": {
+      "hospital_destacado": "Hospital Interzonal General de Agudos 'Pedro Fiorito'",
+      "salita_principal": "CAPS N° 7 (Wilde)",
+      "zona_sanitaria": "Región Sanitaria VI"
+    }
+  }
+}
