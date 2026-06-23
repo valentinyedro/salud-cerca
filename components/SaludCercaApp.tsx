@@ -11,6 +11,7 @@ import { Header } from "@/components/ui/Header";
 import { FilterPanel } from "@/components/filters/FilterPanel";
 import { MapSection } from "@/components/map/MapSection";
 import { MedicationSection } from "@/components/medication/MedicationSection";
+import { HealthStats } from "@/components/stats/HealthStats";
 
 type SaludCercaAppProps = {
   establishments: Establishment[];
@@ -70,6 +71,7 @@ export function SaludCercaApp({ establishments }: SaludCercaAppProps) {
       )}
 
       {activeView === "medicamentos" && <MedicationSection />}
+      {activeView === "estadisticas" && <HealthStats />}
     </main>
   );
 }

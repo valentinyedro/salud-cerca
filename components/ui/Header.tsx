@@ -145,13 +145,20 @@ export function Header({
           </button>
 
 
-          <button
+<button
             type="button"
-            disabled
-            className="text-sm font-bold text-slate-400 uppercase tracking-wider pb-1 cursor-not-allowed hover:text-slate-500 transition-colors"
-            title="Próximamente"
+            id="estadisticas"
+            title="Estadísticas"
+            aria-pressed={activeView === "estadisticas"}
+            onClick={() => onViewChange("estadisticas")}
+            className={
+              "text-sm font-bold uppercase tracking-wider pb-1 cursor-pointer " +
+              (activeView === "estadisticas"
+                ? "text-[#0072b8] border-b-2 border-[#0072b8]"
+                : "text-slate-400 hover:text-[#0072b8] hover:border-b-2 transition-colors")
+            }
           >
-            Otra info
+            Estadísticas
           </button>
 
           <button

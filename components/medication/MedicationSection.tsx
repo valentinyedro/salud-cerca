@@ -123,9 +123,18 @@ export function MedicationSection() {
     return sorted.slice(start, start + pageSize);
   }, [sorted, safeCurrentPage, pageSize]);
 
+  const ul = window.document.getElementsByTagName("ul")[0];
+
   function applySearch(q?: string) {
     setAppliedQuery(q ?? searchQuery);
     setCurrentPage(1);
+
+  }
+
+  function hideSuggestions() {
+    if (ul.style.display === "none" || ul.style.display === ""  ) 
+      { ul.style.display = "block";} 
+    else {    ul.style.display = "none";}  
   }
 
   return (
@@ -177,6 +186,7 @@ export function MedicationSection() {
                     onClick={() => {
                       setSearchQuery(s);
                       applySearch(s);
+                      hideSuggestions();
                     }}
                   >
                     {s}
